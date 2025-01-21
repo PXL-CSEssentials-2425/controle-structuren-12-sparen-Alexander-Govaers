@@ -1,0 +1,26 @@
+﻿<Window x:Class="controle_structuren_12_sparen_Alexander_Govaers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:controle_structuren_12_sparen_Alexander_Govaers"
+        mc:Ignorable="d"
+               Title="Berkenening: hoeveel weken tot eindbedrag?" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Spaarvarken.jpg"/>
+        </Grid.Background>
+
+        <TextBlock HorizontalAlignment="Left" Margin="211,110,0,0" TextWrapping="Wrap" Text="Weekgeld" VerticalAlignment="Top" Height="40" Width="102"/>
+        <TextBlock HorizontalAlignment="Left" Margin="169,165,0,0" TextWrapping="Wrap" Text="Wekelijkse verhoging" VerticalAlignment="Top" Height="41" Width="176"/>
+        <TextBlock HorizontalAlignment="Left" Margin="180,226,0,0" TextWrapping="Wrap" Text="Gewenst spaarbedrag" VerticalAlignment="Top" Height="40" Width="164"/>
+        <TextBox x:Name="weekGeldTextBox" HorizontalAlignment="Left" Margin="313,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="verhogingTextBox" HorizontalAlignment="Left" Margin="313,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="gewenstBedragTextBox" HorizontalAlignment="Left" Margin="313,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="146,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" Height="138"/>
+        <Button x:Name="calculateButton" Content="Bereken" HorizontalAlignment="Left" Margin="600,101,0,0" VerticalAlignment="Top" Height="33" Width="80" Click="calculateButton_Click"/>
+        <Button x:Name="deleteButton" Content="Wissen" HorizontalAlignment="Left" Margin="600,165,0,0" VerticalAlignment="Top" Height="21" Width="80" Click="deleteButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="600,208,0,0" VerticalAlignment="Top" Height="39" Width="80" Click="closeButton_Click"/>
+
+    </Grid>
+</Window>
