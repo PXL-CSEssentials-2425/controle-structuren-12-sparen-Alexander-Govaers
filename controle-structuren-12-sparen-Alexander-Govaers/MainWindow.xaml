@@ -11,6 +11,7 @@
             <ImageBrush ImageSource="/Spaarvarken.jpg"/>
         </Grid.Background>
 
+
         <TextBlock HorizontalAlignment="Left" Margin="211,110,0,0" TextWrapping="Wrap" Text="Weekgeld" VerticalAlignment="Top" Height="40" Width="102"/>
         <TextBlock HorizontalAlignment="Left" Margin="169,165,0,0" TextWrapping="Wrap" Text="Wekelijkse verhoging" VerticalAlignment="Top" Height="41" Width="176"/>
         <TextBlock HorizontalAlignment="Left" Margin="180,226,0,0" TextWrapping="Wrap" Text="Gewenst spaarbedrag" VerticalAlignment="Top" Height="40" Width="164"/>
